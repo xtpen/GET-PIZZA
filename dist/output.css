@@ -1329,6 +1329,7 @@ header{
 .toggle__menu{
   z-index: 50;
   display: flex;
+  cursor: pointer;
   flex-direction: column;
   gap: 0.25rem;
 }

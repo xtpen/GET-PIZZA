@@ -10,6 +10,11 @@
   .container {
     @apply max-w-[1600px] w-full px-4 mx-auto;
   }
+
+
+
+
+
   /* /////////////////////////////// - HOME PAGE */
   /* BANNER */
   .banner {
@@ -29,6 +34,9 @@
   .banner__text h1 {
     @apply text-5xl font-semibold mb-10;
   }
+
+
+
   /* WELCOME */
   .welcome {
     @apply py-10;
@@ -55,6 +63,9 @@
   .welcome__text p {
     @apply mt-3;
   }
+
+
+
   /* WHAT WE OFFER */
   .offer {
     @apply py-10 bg-tertiary text-white;
@@ -118,6 +129,8 @@
     lg:max-w-[40rem]
   }
 
+
+
   /* OUR STORY */
   .story {
     @apply py-10;
@@ -153,6 +166,8 @@
     @apply max-h-[50rem] bg-slate-50 p-3 duration-300;
   }
 
+
+  
   /* CLIENTS REVIEW */
   .review {
     @apply pb-14;
@@ -326,7 +341,7 @@
     @apply text-black/80 hover:text-primary;
   }
   .toggle__menu {
-    @apply flex flex-col gap-1 z-50 
+    @apply flex flex-col gap-1 z-50 cursor-pointer
     /* desktop */
     lg:hidden;
   }
